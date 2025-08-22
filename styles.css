@@ -1,0 +1,42 @@
+.main-container {
+    border: 1px solid black;
+    width: 50%;
+    height: 1000px;
+    display: flex;
+    margin: auto;
+}
+
+.section1 {
+    border: 1px solid black;
+    /* width:900px; */
+    height: 250px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box1 {
+    border: 1px solid blue;
+    width:50%;
+    height:50%;
+
+}
+
+#profilePic{
+    width: 30%;
+    height: 10px;
+}
+.box2 {
+    border: 1px solid red;
+    width:49%;
+    height:50%;
+}
+
+.box3 {
+    border: 1px solid purple;
+    /* width: 900px; */
+    width: 100%;
+    height:50%;
+    /* margin-top: auto; */
+    margin:auto;
+}
