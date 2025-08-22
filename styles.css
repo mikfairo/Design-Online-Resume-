@@ -19,13 +19,27 @@
     border: 1px solid blue;
     width:50%;
     height:50%;
-
 }
 
 #profilePic{
     width: 30%;
-    height: 10px;
+    height: 70%;
+    margin-right: auto;
+    margin: 0;
 }
+p {
+    font-size: medium;
+    font-weight: bold;
+    width: fit-content;
+    
+    
+}
+#details {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+
 .box2 {
     border: 1px solid red;
     width:49%;
